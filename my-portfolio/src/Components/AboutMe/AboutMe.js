@@ -1,5 +1,7 @@
 import React from 'react';
 import photo from "../../Visuals/Me.png";
+import "./AboutMe.css";
+
 const AboutMe = () =>{
     return (
         <div id="about-me">

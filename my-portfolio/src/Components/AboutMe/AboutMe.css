@@ -1,0 +1,46 @@
+#about-me{
+    min-height: 40vh;
+    background-color: rgba(255, 252, 247);
+}
+
+h2{
+    font-weight: 700;
+    text-align: center;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+}
+
+#photo{
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.photo{
+    width: 100%;
+    height: auto;
+}
+
+.description{
+    margin-top: 8%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.container{
+    padding-top: 1.5%;
+    padding-bottom: 5%;
+}
+
+.color{
+    color: black;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.color:hover{
+    color: rgb(202, 13, 13);
+    font-weight: 600;
+}
