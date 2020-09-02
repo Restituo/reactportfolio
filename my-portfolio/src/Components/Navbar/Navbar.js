@@ -1,21 +1,21 @@
 import React from 'react';
-
+import "./Navbar.css";
 const Navbar = () =>{
     return(
         <div id="navi" className="fixed-top">
             <ul className="navi nav">
-                <li className="nav-item">
-                    <a className="nav-link color" href="#about-me">About Me</a>
-                </li>
-                <li className="nav-item">
-                    <a className="nav-link color" href="#projects">Projects</a>
-                </li>
-                <li className="nav-item">
-                    <a className="nav-link color" href="#resume">Resume</a>
-                </li>
-                <li className="nav-item">
-                    <a className="nav-link color" href="#connect">Contact</a>
-                </li>
+                <ul className="nav-item">
+                    <a className="nav-link color" style={{ textDecoration: 'none' }} href="#about-me">About Me</a>
+                </ul>
+                <ul className="nav-item">
+                    <a className="nav-link color" style={{ textDecoration: 'none' }} href="#projects">Projects</a>
+                </ul>
+                <ul className="nav-item">
+                    <a className="nav-link color" style={{ textDecoration: 'none' }} href="#resume">Resume</a>
+                </ul>
+                <ul className="nav-item">
+                    <a className="nav-link color" style={{ textDecoration: 'none' }} href="#connect">Contact</a>
+                </ul>
             </ul>
         </div>
     );

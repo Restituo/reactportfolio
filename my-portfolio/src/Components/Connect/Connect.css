@@ -1,9 +1,20 @@
 #connect{
     text-align: center;
-    color: rgb(131, 16, 207);
 }
 
 .container{
     padding-top: 1.5%;
     padding-bottom: 5%;
+}
+
+.icons a{
+    color:rgb(22, 21, 21)
+}
+
+.icons a:hover{
+    color:rgb(207, 16, 32)
+}
+
+.middle-icon{
+    margin:2%;
 }
