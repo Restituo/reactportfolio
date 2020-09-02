@@ -12,7 +12,7 @@ const Connect = () => {
                 <FontAwesomeIcon icon={["fab", "linkedin-in"]} size="3x" />
             </a>
             <a href="mailto:rcc999@comcast.net">
-                <FontAwesomeIcon icon={["far", "envelope"]} size="3x" />
+                <FontAwesomeIcon icon={["fab", "envelope"]} size="3x" />
             </a>
         </div>
     );
