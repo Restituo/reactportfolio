@@ -1,11 +1,12 @@
 #about-me{
     min-height: 40vh;
-    background-color: rgba(255, 252, 247);
+    background-color: rgba(12, 13, 14, 0.568);
 }
 
 h2{
     font-weight: 700;
     text-align: center;
+    color: white;
 }
 
 .row{
@@ -15,18 +16,23 @@ h2{
 
 #photo{
     text-align: center;
-    margin-bottom: 2%;
+    margin: 2%;
 }
 
 .photo{
     width: 100%;
     height: auto;
+    margin-left:20%;
+    margin-right:5%;
+    margin-top: 5%;
 }
 
 .description{
-    margin-top: 8%;
+    margin-top: 2%;
     margin-left: 5%;
     margin-right: 5%;
+    color: rgb(224, 220, 220);
+    font-size: 16px;
 }
 
 .container{
@@ -34,8 +40,8 @@ h2{
     padding-bottom: 5%;
 }
 
-.color{
-    color: black;
+.colorM{
+    color: rgb(224,220,220);
     font-weight: 600;
     font-size: 16px;
 }

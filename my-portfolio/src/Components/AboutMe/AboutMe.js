@@ -19,10 +19,10 @@ const AboutMe = () =>{
                         <div className="description">
                             <p>
                                 My name is Richard and I'm a full-stack software engineer with a background in Chemical Engineering and Chemistry and a life-long dedication to learning. 
-                                I enjoy building effective and efficient programs that basically make life easier using Javascript and React. I love expressing my creative side by
-                                designing visually aesthetic front-end development and smooth user experiences.
+                                I enjoy building effective and efficient programs that basically make life easier using Javascript and React.
+                                Dedicating to combining the beauty of design with the logical perfection of coding.
                                 <br/><br/>
-                                Let's <a className="color" href="#contact">connect</a>!
+                                Let's <a className="colorM" style={{ textDecoration: 'none' }} href="#connect">connect</a>!
                             </p>
                         </div>
                     </div>
